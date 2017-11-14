@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.manolo.menuopcionessubitems.MainActivity">
+
+    <item android:title="Redes sociales">
+        <menu>
+            <item
+                android:id="@+id/facebook"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/twitter"
+                android:title="Twitter" />
+        </menu>
+    </item>
+
+    <item android:title="Cursos">
+        <menu>
+            <item
+                android:id="@+id/cursoAndroid"
+                android:title="Curso Android" />
+            <item
+                android:id="@+id/cursoJava"
+                android:title="Curso Java" />
+        </menu>
+    </item>
+
+    <item android:title="Prensa">
+        <menu>
+            <item
+                android:id="@+id/marca"
+                android:title="Marca" />
+            <item
+                android:id="@+id/elpais"
+                android:title="El País" />
+            <item
+                android:id="@+id/elmundo"
+                android:title="El Mundo" />
+        </menu>
+    </item>
+
+    <item android:title="Salir"
+        android:id="@+id/salir"/>
+</menu>
